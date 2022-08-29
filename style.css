@@ -1,0 +1,122 @@
+
+body{
+	background-color: #F3F5FC;
+}
+
+.logo{
+	width:150px;
+	margin: 10px 0 0 10px;
+}
+
+
+main{
+	margin-top: 50px;
+	display: flex;
+	margin-left: 50px;
+	margin-bottom: 80px;
+	justify-content: space-around;
+}
+
+textarea{
+	resize: none;
+}
+
+.input-text{
+	width: 900px;
+	height: 300px;
+	font-size: 32px;
+	background-color: #F3F5FC;
+}
+
+
+
+.input-text::placeholder{
+	color: #000;
+	font-size: 32px;
+}
+
+
+.mensaje{
+	font-size: 32px;
+	width: 400px;
+	height: 300px;
+	background-image: url(imagenes/Muñeco.png);
+	/*background-image: url(imagenes/gif-min.gif);*/
+	background-repeat: no-repeat;
+	border: none;
+	background-color: #F3F5FC;
+
+}
+
+.botones{
+	padding-top: 10px;
+	margin-left: 70px;
+}
+
+
+.encriptar{
+	padding: 10px 30px;
+	margin-left: 200px;
+	background-color:#8374a5;
+	font-size: 20px;
+	color: #000;
+	transition: 1s;
+	border: none;
+}
+
+.desencriptar{
+	padding: 10px 30px;
+	background-color:#8374a5;
+	color: #000;
+	font-size: 20px;
+	transition: 1s;
+	border: none;
+	margin-left: 15px;
+}
+
+.copiar{
+	display: flex;
+	padding: 10px 30px;
+	margin-top: 10px;
+	background-color:#8374a5;
+	font-size: 20px;
+	color: #000;
+	transition: 1s;
+	border: none;
+	margin: 0 auto;
+}
+
+.encriptar:hover{
+	transform: scale(1.2);
+	color: pink;
+	background-color: #0A3871;
+}
+
+.desencriptar:hover{
+	transform: scale(1.2);
+	color: pink;
+	background-color: #0A3871;
+}
+
+
+
+
+.copiar:hover{
+	transform: scale(1.2);
+	color: pink;
+	background-color: #0A3871;
+}
+
+.footer{
+	font-family: monospace;
+	display: flex;
+	flex-direction: column-reverse;
+	height: 338px;
+	text-align: center;
+}
+
+.logofooter{
+	display: inline;
+	margin-left: 20px;
+	height: 60px;
+}
